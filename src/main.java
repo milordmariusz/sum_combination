@@ -9,7 +9,7 @@ public class main {
 
     static int number = 0;
     static String combination = "";
-    static StringBuilder sb = new StringBuilder();
+    static StringBuilder sb = new StringBuilder(); //easter egg
 
     static void findCombinationsFinal(int arr[], int index, int num, int reduce_num){
         if (reduce_num < 0){
