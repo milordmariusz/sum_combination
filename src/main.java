@@ -66,6 +66,7 @@ public class main {
                 sb.append("Number of combination: " + number);
                 sb.append('\n' + "-------------------------" + '\n');
                 sb.append(" " + '\n' + '\n' + " " + '\n');
+                number = 0;
                 } catch (Exception e) {
                     sb.replace(0,sb.capacity()," "+ "\nWystąpił błąd, sprawdź czy w pliku data.txt\n znajdują się wyłącznie liczby naturalne!");
                     break;
